@@ -8,13 +8,13 @@ find ./ -iname "*.md" -type f -exec bash -c 'echo -e "\x1B[1mConverting ${0}\x1B
 
 find ./ \
   -not -path './dist/*' \
+  -not -path "./.git/*" \
+  -not -path "./.github/*" \
   -not -name "*.md" \
   -not -name "build" \
   -not -name "watch" \
   -not -name "code.theme" \
   -not -name ".gitignore" \
-  -not -name ".git" \
-  -not -name ".github" \
   -type f \
   -exec sh -c 'mkdir -p $(dirname "dist/${0}") && cp "${0}" "dist/${0%.md}"' {} \;
 
