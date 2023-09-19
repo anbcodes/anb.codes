@@ -32,6 +32,10 @@ Lastly, I also write blog posts [here](/posts)
 
 ## Personal Projects
 
+### 2023
+
+- [Basic Swedish Grammar](./notes/swedish.txt)
+
 ### 2022
 
 - [LED Strip Remote](https://leds.anb.codes/) -

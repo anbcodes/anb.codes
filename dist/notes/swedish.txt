@@ -1,0 +1,243 @@
+Learning Swedish
+================
+
+Most material comes from: https://en.wikipedia.org/wiki/Swedish_grammar
+
+# Pronouncation
+
+There are short and long vowels
+Vowel  Short      Long
+i      see        (lengthened)
+e      -----      he
+ä      hello      have
+a      mat+bought bought
+å      not        cool
+o      boot       (lengthened)
+u      fool       fuel+mule
+y      eel+u      (lengthened)
+ö      nut        (lengthened + ought)
+
+Consonates that are different from english
+kj -> sh
+sj -> ph
+ j -> y
+
+> Note: r is often trilled
+
+# Nouns
+
+Formation of a noun [stem][plur?][definite article?][possesive?]
+
+## 5 declensions
+Decl.  Sing.   Plur     Primary Gender
+1st    -a      -or      Common
+2nd    --      -ar      Common
+3rd    --      -er (-r) Both
+4th    --      -n       Neuter
+5th    --      (none)   Both
+
+## Articles
+
+The definite article is expressed by a suffix, while the indefinite article is a separate word
+
+Indefinite article (only in the singular): en (common), ett (neuter)
+
+### Definite article
+
+Common sing. -en/-n
+Neuter sing. -et/t
+
+> Note: The final -t is silent in most dialects
+
+Plural Articles
+  Decl. Ending
+  1st   -na
+  2nd   -na
+  3rd   -na
+  4th   -a
+  5th   -en
+
+Definite Adjectives/Numerals: det (neuter), den (common), de (plural)
+
+## Genitive
+
+It is always formed by adding an -s to the end of the word.
+Often put on the last word of the noun phrase instead of the actual genitive noun (like english)
+
+# Pronouns
+
+## Personal
+
+Very similar to english, but they have a seperate reflective pronoun like latin
+
+Singluar                                     Plural
+-------------------------------------------|-------------------------
+Person    Nom   Obj    Possessive (c/n/p)  |Person   Nom   Obj  Possessive(c/n/p)
+1st       jag   mig    min, mitt, mina     |1st      vi    oss  vår, vårt, våra
+2nd       du    dig    din, ditt, dina     |2nd      ni    er   er, ert, era
+3rd/masc  han   honom  hans                |3rd      de    dem  deras
+3rd/femi  hon   henne  hennes              |
+3rd/comm     den       dess                |
+3rd/neut     det       dess                |
+3rd/inde  man   en     ens                 |
+3rd/refl  ---   sig    sin, sitt, sina     |3rd/refl --    sig  sin, sitt, sina
+
+Note: The word: hen hen/henom, hens is sometimes used as a non gendered singluar pronoun (like they in english)
+
+## Demonstrative, interrogative, and relative pronouns
+
+* den här, det här, de här: this these (for definite nouns)
+* den där, det där, de där: that those (for definite nouns)
+* denne denna, detta, dessa: this/these (indefinite nouns)
+* som: as, that, which, who (used as an all-purpose relative pronoun whenever possible)
+* vem: who, whom (interrogative)
+* vilken, vilket, vilka: which, what, who, whom, that
+* vad: what
+* vems: whose (interrogative)
+* vars: whose (relative)
+* när: when
+* då: then, when (relative)
+* här, där, var: here, there, where (forms combinations like "where from" varifån)
+* hit, dit, vart: hither, thither, whither
+* vem/vilket/vad/när/var som helst: whoever, whichever, whatever, whenever, wherever, etc.
+* hädan, dädan, vadan, sedan (often hän and sen; these are kinda archaic/formal): hence, thence, whence, since
+* någon, något, några (often nån, nåt, nåra): some/any, a few; someone/anyone, something/anything etc.
+* ingen, inget, inga: no, one; no one/nothin
+* annan, annat, andra: other, else
+* någon/ingen/annan/ -stans, överallt: somewhere/anywhere, nowhere, elsewhere, everywhere
+* någorlunda, ingalunda, annorlunda: somehow/anyhow, no way, otherwise
+* någonting, ingenting, allting: something/anything, nothing, everything
+
+# Adjectives
+
+Strong inflection (indefinite nouns)
+Sing. common: (none)
+Sing. neutur: -t
+      Plural: -a
+
+Weak inflection (definite nouns) -a
+
+> Note: when the noun can be replaced with he/him the ending is -e
+
+## Comparatives and superlatives
+
+Comparative: -are
+Superlative -ast
+
+> Note: add -e for definite superlaties
+
+# Adverbs
+
+adjectival adverbs are formed using the neuter sing.
+
+> Note: if an adjective ends in -lig, the adverb sometimes is -ligen
+
+Directional Adverbs
+(movement/no movement)
+* upp/uppe: up
+* ner/nere: down
+* in/inne: in, into
+* ut/ute: out, out of
+* hem/hemma: home
+* bort/borta: away
+* fram/framme: forward
+
+# Numerals
+0  noll
+1  en, ett
+2  två
+3  tre
+4  fyra
+5  fem
+6  sex
+7  sju
+8  åtta
+9  nio
+10 tio
+11 elva
+12 tolv
+13 tretton
+14 fjorton
+15 femton
+16 sexton
+17 sjutton
+18 arton
+19 nitton
+
+Multiples of 20-1000
+20   tjugo
+30   trettio
+40   fyrtio
+50   femtio
+60   sextio
+70   sjuttio
+80   åttio
+90   nittio
+100  hundra
+1000 tusen
+
+> Note: in some dialects, the -o in nio, tio, and tjugo is often pronouned -e or -u or -i
+
+Numbers 21-99 are written: [big number][small number]
+
+## Ordinal
+* 1st: första
+* 2nd: andra
+* 3rd: tredje
+* 4th: fjärde
+* 5th: femte
+* 6th: sjötte
+* 7th: sjunde
+* 8th: ättonde
+* 9th: nionde
+* 10th: tionde
+* 11th: elfte
+* 12th: tolfte
+
+Others are formed with -de (thirteenth-nineteenth, hundredth/thousandth), -nde (twentieth-ninetieth), -te for larger numbers
+
+## Rational numbers
+TODO
+
+# Verbs
+
+> Note: att is often put before the infinitive
+
+Group Imper. Infi. Pres. Past   Supine Past Part.
+------------------------------------------------------------------
+1     -!     --    -r    -de     -t     -d/-t/-de
+2a    -!     -a    -er   -de     -t     -d/-t/-da
+2b    -!     -a    -er   -te     -t     -t/-t/-ta
+3     -!     --    -r    -dde    -tt    -dd/-tt/-dda
+4     -!     -a    -er   (vowel) -it    -en/-et/-na
+
+## Irregular Verbs
+
+Verb             Imper.     Infi.     Pres.     Past     Supine     Past Part.
+------------------------------------------------------------------------------
+var (to be)      var!       vara      är        var      varit      ---
+gå (to walk)     gå!        gå        går       gick     ---        gått          
+
+## Passive
+
+Passive is generally formed by adding an -s
+
+Four ways to form passive
+1. add an -s to the infinitive
+2. use a form of bli (to become) + the past part.
+3. use a form of vara (to be) + the past part.
+4. use a form of få (to get) + the past part.
+
+# Prepositions
+
+* på: on, upon; at; for (in neg. statement)
+* under: under; during
+* i: in (of place)
+* om: in (of time)
+* vid: by
+* till: to
+* före: before
+* runt: around
+* emellan: between
+* igenom: through
+
