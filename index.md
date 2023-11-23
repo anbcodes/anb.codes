@@ -6,18 +6,19 @@ title: 'anb.codes'
 
 Hello! I am a computer programmer. I know how to program in HTML, CSS,
 Javascript, and Typescript. I have used Svelte and Vuejs for creating websites
-(but this site is actually made with raw HTML and CSS). I am not as good at
-C/C++ and Python, but I have written programs with them. I have also
-experimented with Java, Rust, and Haskell, but I could not really use them in
-practice though Java would not be too hard to learn.
+(but this site is actually made with markdown files). I am not as good at C/C++
+and Python, but I have written programs with them. I have also experimented with
+Java, Rust, and Haskell, but I could not really use them in practice though Java
+would not be too hard to learn.
 
 I have some experience with cybersecuity. I\'ve done
 [Cyberstart](https://www.cyberstartamerica.org/) and participated in the 2021
 National Cyber Scholarship Competition, in which I scored
 [21st](https://leaderboard.tomahawque.com/943e22be-870a-11eb-8e55-636337383761/359e5c0b1998ff3e19014cb3b9239f64/).
 I also have
-[GFACT](https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/)
-and [GPEN](https://www.giac.org/certifications/penetration-tester-gpen/)
+[GFACT](https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/),
+[GPEN](https://www.giac.org/certifications/penetration-tester-gpen/), and
+[GCLD](https://www.giac.org/certifications/cloud-security-essentials-gcld/)
 certifications from [GIAC](https://www.giac.org/).
 
 I am also currently looking for web development contract work. I can create
@@ -34,6 +35,9 @@ Lastly, I also write blog posts [here](/posts)
 
 ### 2023
 
+- [The Corner](https://thecorner.anb.codes/) -
+  [Github](https://github.com/anbcodes/the-corner) - A small corner of the
+  internet for respectful discussion and debate.
 - [Basic Swedish Grammar](./notes/swedish.txt)
 
 ### 2022

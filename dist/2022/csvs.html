@@ -8,33 +8,57 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="/global.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
 <h1 class="title">Handling CSVs</h1>
 </header>
 <p>May 22nd, 2022</p>
-<p>Recently, I needed to create a large CSV. CSV is a format for storing data as a table which seperates each field with a comma and each row with a newline. For example a CSV file could look like this.</p>
+<p>Recently, I needed to create a large CSV. CSV is a format for storing
+data as a table which seperates each field with a comma and each row
+with a newline. For example a CSV file could look like this.</p>
 <pre class="csv"><code>name,age,pets
 Bob,21,dog
 Alice,19,cat</code></pre>
-<p>Pretty simple right? It is until you need a comma (or quote) within the field. To avoid the comma problem you can put all the fields in quotes like this.</p>
+<p>Pretty simple right? It is until you need a comma (or quote) within
+the field. To avoid the comma problem you can put all the fields in
+quotes like this.</p>
 <pre class="csv"><code>&quot;name&quot;,&quot;age&quot;,&quot;pets&quot;
 &quot;Bob&quot;,&quot;21&quot;,&quot;dog, parrot&quot;
 &quot;Alice&quot;,&quot;19&quot;,&quot;cat&quot;</code></pre>
-<p>It is slightly more complicated, but not too bad. But wait, what if I have a quote inside the field? After a bit of searching I discovered that you can escape a double quote by using two double quotes. Like this.</p>
+<p>It is slightly more complicated, but not too bad. But wait, what if I
+have a quote inside the field? After a bit of searching I discovered
+that you can escape a double quote by using two double quotes. Like
+this.</p>
 <pre class="csv"><code>&quot;name&quot;,&quot;age&quot;,&quot;pets&quot;
 &quot;Bob &quot;&quot;The Coder&quot;&quot;&quot;,&quot;21&quot;,&quot;dog, parrot&quot;
 &quot;Alice&quot;,&quot;19&quot;,&quot;cat&quot;</code></pre>
-<p>Now we are done! We can store arbitrary text in each field but some escaping is required.</p>
-<p>If you have a comment - email me at <a href="mailto:comments@anb.codes" class="email">comments@anb.codes</a></p>
-<p>This work is licensed under the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License.</a></p>
+<p>Now we are done! We can store arbitrary text in each field but some
+escaping is required.</p>
+<p>If you have a comment - email me at <a
+href="mailto:comments@anb.codes"
+class="email">comments@anb.codes</a></p>
+<p>This work is licensed under the <a
+href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+Attribution 4.0 International License.</a></p>
 <p><a href="/">Home</a></p>
 </body>
 </html>
