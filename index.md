@@ -35,8 +35,9 @@ Lastly, I also write blog posts [here](/posts)
 
 ### 2023
 
-- [ChordPDF](https://github.com/anbcodes/chordpdf) - A simple command line tool
-  for creating chord sheets.
+- [ChordPDF](https://chordpdf.anb.codes) -
+  [Github](https://github.com/anbcodes/chordpdf) - A simple tool for creating
+  chord sheets.
 - [The Corner](https://thecorner.anb.codes/) -
   [Github](https://github.com/anbcodes/the-corner) - A small corner of the
   internet for respectful discussion and debate.
