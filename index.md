@@ -33,6 +33,13 @@ Lastly, I also write blog posts [here](/posts)
 
 ## Personal Projects
 
+### 2024
+
+- [Minecraft Map Generator](https://github.com/anbcodes/minecraft-map-chat) -
+  Minecraft Map Generator creates an interactive map of a Minecraft world from
+  the world folder. It also integrates live player locations and chat using a
+  Paper plugin.
+
 ### 2023
 
 - [ChordPDF](https://chordpdf.anb.codes) -
