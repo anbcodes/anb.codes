@@ -1,0 +1,171 @@
+---
+import FocusText from "../components/FocusText.astro";
+import SideImage from "../components/SideImage.astro";
+import Default from "../layouts/Default.astro";
+import Header from "../components/Header.astro";
+import { Image } from "astro:assets";
+import sphoto from "../assets/sphoto.jpg";
+import cmcI from "../assets/cmc.png";
+import mcmapI from "../assets/mcmap.png";
+import thecornerI from "../assets/thecorner.png";
+import chordpdfI from "../assets/chordpdf.png";
+import Project from "../components/Project.astro";
+---
+
+<Default>
+	<div class="m-4 md:m-20 flex flex-col">
+		<SideImage centerText>
+			<div
+				slot="image"
+				class="pb-10 flex md:pb-0 flex-col flex-grow items-center"
+			>
+				<Image
+					src={sphoto}
+					alt="photo of me"
+					densities={[1.5, 2, 2.5, 3, 3.5, 4]}
+					class="rounded-full max-w-[200px] md:max-w-[400px] shadow-md shadow-black fade-in delay-1"
+				/>
+			</div>
+			<div class="fade-in">
+				<FocusText>
+					Hi! I'm Andrew Baumes<br />
+					 I'm a coder, hacker and learner<br />
+				</FocusText>
+				<FocusText>
+					From <a href="https://github.com/anbcodes/led-functions">LEDs</a> to <a
+						href="/certs">Cybersecurity</a
+					><br />
+					 From <a href="https://github.com/anbcodes/minecraft-map-chat"
+						>map generators</a
+					> to <a href="https://github.com/anbcodes/cmc">game clients</a><br />
+					 I love all things computers
+				</FocusText>
+			</div>
+		</SideImage>
+
+		<Header c="pt-0">About</Header>
+		<div class="max-w-[700px] prose prose-invert m-auto">
+			<p class="fade-in">
+				My name is Andrew Baumes and I love computers. I started programming
+				when my dad introduced me to <a href="https://scratch.mit.edu/"
+					>Scratch</a
+				>
+				 at 8 years old. Soon I moved on to Python and eventually JavaScript and
+				TypeScript.
+			</p>
+			<p class="fade-in">
+				While a lot of my time has been spent in web development. I have also
+				experimented with game development and Arduino (and other hardware).
+			</p>
+			<p class="fade-in">
+				Some of the technologies I've used over the years are C, C++, Perl,
+				Linux, Bash, React, HTML, CSS, TypeScript, TailwindCSS, Svelte, and Vue.
+			</p>
+			<p class="fade-in">
+				Right now, I am working towards a degree in computer science and working
+				part-time as an intern. I am also willing to do part-time contract work
+				(email me at <a href="mailto:work@anb.codes">work@anb.codes</a>).
+			</p>
+		</div>
+
+		<Header>Favorite Projects</Header>
+		<Project
+			link="https://github.com/anbcodes/cmc"
+			image={cmcI}
+			caption="A screenshot from cmc."
+			title="cmc"
+		>
+			<p>
+				cmc is an (incomplete) Minecraft 1.21 client written in C. It currently
+				supports joining servers with compression, encryption, and authenticated
+				login.
+			</p>
+		</Project>
+		<Project
+			left
+			link="https://github.com/anbcodes/chordpdf"
+			image={chordpdfI}
+			caption="ChordPDF"
+			title="ChordPDF"
+		>
+			<p>
+				Chord PDF is a project that renders chord charts from plain text files.
+				There is a <a href="https://chordpdf.anb.codes/">web version</a> and a <a
+					href="https://www.npmjs.com/package/@anbcodes/chordpdf">CLI</a
+				>.
+			</p>
+		</Project>
+		<Project
+			link="https://github.com/anbcodes/minecraft-map-chat"
+			image={mcmapI}
+			caption="An interactive Minecraft map"
+			title="MC Map Generator"
+		>
+			<p>
+				Minecraft Map Generator creates an interactive map of a Minecraft world
+				from the world folder. It also integrates live player locations and chat
+				using a PaperMC plugin. <a href="https://mcmapdemo.anb.codes/">Demo</a>
+			</p>
+		</Project>
+		<div class="text-2xl text-center">
+			<a href="/projects">See More Projects &gt;&gt;&gt;</a>
+		</div>
+		<Header>Cybersecurity</Header>
+
+		<SideImage nospace animate>
+			<FocusText>
+				<h1>
+					<a href="https://www.credly.com/users/andrew-baumes"
+						>GIAC Certifications</a
+					>
+				</h1>
+				<p class="text-2xl pb-2">
+					I have 4 GIAC certifications: GSEC, GCLD, GPEN, and GFACT.
+				</p>
+			</FocusText>
+
+			<div
+				slot="image"
+				class="flex pb-10 md:pb-0 flex-grow justify-center items-center"
+			>
+				<div class="giac grid grid-cols-2 flex-grow max-w-[300px] gap-7">
+					<a
+						href="https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/"
+						><img src="/gfact.svg" /></a
+					>
+					<a href="https://www.giac.org/certifications/penetration-tester-gpen/"
+						><img src="/gpen.svg" /></a
+					>
+					<a
+						href="https://www.giac.org/certifications/cloud-security-essentials-gcld/"
+						><img src="/gcld.svg" /></a
+					>
+					<a
+						href="https://www.giac.org/certifications/security-essentials-gsec/"
+						><img src="/gsec.svg" /></a
+					>
+					<style>
+						.giac > img {
+							@apply shadow-lg shadow-black rounded-full;
+						}
+					</style>
+				</div>
+			</div>
+		</SideImage>
+
+		<Header>Experience</Header>
+
+		<SideImage nospace animate>
+			<FocusText>
+				<h1 class="pb-0">
+					<a href="https://intellasoft.net">Intellasoft</a>
+				</h1>
+				<p class="text-xl pb-2">Jul 2024 - present</p>
+				<p class="text-2xl pb-2">
+					I am currently working as an intern on backend and frontend projects.
+					I've worked with Linux, Postgresql and Perl.
+				</p>
+			</FocusText>
+		</SideImage>
+	</div>
+</Default>

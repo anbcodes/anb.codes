@@ -1,0 +1,23 @@
+---
+import Root from "../layouts/Root.astro";
+
+interface Props {
+  title?: string;
+}
+const { title } = Astro.props;
+---
+
+<Root title={title}>
+  <header class="p-3 text-xl md:text-3xl flex gap-2 md:gap-8">
+    <div><a href="/" class="text-white hover:text-white">anb.codes</a></div>
+    <div class="flex-grow"></div>
+    <div><a href="/projects">Projects</a></div>
+    <div><a href="https://github.com/anbcodes">Github</a></div>
+    <div>
+      <a href="https://www.linkedin.com/in/andrew-baumes-36242a216/">LinkedIn</a
+      >
+    </div>
+  </header>
+  <main><slot /></main>
+  <footer></footer>
+</Root>

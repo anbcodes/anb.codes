@@ -1,0 +1,15 @@
+---
+interface Props {
+  c?: string;
+}
+const { c } = Astro.props;
+---
+
+<h1
+  class:list={[
+    "animate fade-in py-10 md:py-14 text-3xl md:text-5xl text-center",
+    c,
+  ]}
+>
+  <slot />
+</h1>

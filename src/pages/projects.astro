@@ -1,0 +1,100 @@
+---
+import FocusText from "../components/FocusText.astro";
+import SideImage from "../components/SideImage.astro";
+import Default from "../layouts/Default.astro";
+import Header from "../components/Header.astro";
+import { Image } from "astro:assets";
+import sphoto from "../assets/sphoto.jpg";
+import cmcI from "../assets/cmc.png";
+import mcmapI from "../assets/mcmap.png";
+import chordpdfI from "../assets/chordpdf.png";
+import thecornerI from "../assets/thecorner.png";
+import ledsI from "../assets/leds.png";
+import spasswordsI from "../assets/spasswords.png";
+import Project from "../components/Project.astro";
+---
+
+<Default title="projects">
+	<div class="m-2 md:m-20 flex flex-col">
+		<Header>Projects</Header>
+		<Project
+			link="https://github.com/anbcodes/cmc"
+			image={cmcI}
+			caption="A screenshot from cmc."
+			title="cmc"
+			technologies="C, WGPU, GLFW"
+		>
+			<p>
+				cmc is an (incomplete) Minecraft 1.21 client written in C. It currently
+				supports joining servers with compression, encryption, and authenticated
+				login.
+			</p>
+		</Project>
+		<Project
+			link="https://github.com/anbcodes/chordpdf"
+			image={chordpdfI}
+			caption="ChordPDF"
+			title="ChordPDF"
+			technologies="HTML, CSS, TypeScript, NPM, esbuild"
+		>
+			<p>
+				Chord PDF is a project that renders chord charts from plain text files.
+				There is a <a href="https://chordpdf.anb.codes/">web version</a> and a <a
+					href="https://www.npmjs.com/package/@anbcodes/chordpdf">CLI</a
+				>.
+			</p>
+		</Project>
+		<Project
+			link="https://github.com/anbcodes/minecraft-map-chat"
+			image={mcmapI}
+			caption="An interactive Minecraft map"
+			title="MC Map Generator"
+			technologies="C, Leaflet, Typescript, Java"
+		>
+			<p>
+				Minecraft Map Generator creates an interactive map of a Minecraft world
+				from the world folder. It also integrates live player locations and chat
+				using a PaperMC plugin. <a href="https://mcmapdemo.anb.codes/">Demo</a>
+			</p>
+		</Project>
+		<Project
+			link="https://github.com/anbcodes/thecorner"
+			image={thecornerI}
+			caption="The Corner"
+			title="The Corner"
+			technologies="HTML, NodeJS"
+		>
+			<p>
+				The Corner is a no (frontend) JS, no CSS website built using NodeJS. The
+				backend uses the filesystem as a database to store the accounts, posts
+				and replies.
+			</p>
+		</Project>
+		<Project
+			link="/2022/led-equations"
+			image={ledsI}
+			caption="LEDs"
+			title="LED Strip Remote"
+			technologies="Arduino, C++, WebSockets, TypeScript, SvelteKit"
+		>
+			<p>
+				A website that I made to control my LED strip remotely. Supports a
+				primitive account system allowing people to share animations with each
+				other. <a href="https://github.com/anbcodes/led-functions">GitHub</a>
+				<a href="http://leds.anb.codes/">Demo</a>
+			</p>
+		</Project>
+		<Project
+			link="https://passwords.anb.codes/"
+			image={spasswordsI}
+			caption="Simplistic Passwords"
+			title="Simplistic Passwords"
+			technologies="TypeScript, Firebase"
+		>
+			<p>
+				A simple password manager (use at your own risk).
+				<a href="https://github.com/anbcodes/simplistic-passwords">GitHub</a>
+			</p>
+		</Project>
+	</div>
+</Default>

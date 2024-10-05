@@ -1,0 +1,31 @@
+---
+import FocusText from "./FocusText.astro";
+import SideImage from "./SideImage.astro";
+
+interface Props {
+  image?: ImageMetadata;
+  link?: string;
+  title?: string;
+  caption?: string;
+  left?: boolean;
+  technologies?: string;
+}
+
+const { image, link, title, caption, left, technologies } = Astro.props;
+---
+
+<SideImage left={left} animate link={link} image={image} caption={caption}>
+  <FocusText>
+    <h1 class:list={[{ "pb-0": technologies }]}><a href={link}>{title}</a></h1>
+    {
+      technologies && (
+        <div class="pb-2 text-lg text-neutral-300">
+          Technologies used: {technologies}
+        </div>
+      )
+    }
+    <div class="text-xl">
+      <slot />
+    </div>
+  </FocusText>
+</SideImage>

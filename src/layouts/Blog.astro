@@ -1,0 +1,17 @@
+---
+import type { MarkdownLayoutProps } from "astro";
+import Default from "./Default.astro";
+import Root from "./Root.astro";
+
+type Props = MarkdownLayoutProps<{ title: string }>;
+const {
+  frontmatter: { title },
+} = Astro.props;
+---
+
+<Default title={title}>
+  <div class="prose lg:prose-lg prose-invert max-w-[600px] m-auto">
+    <h1>{title}</h1>
+    <slot />
+  </div>
+</Default>
